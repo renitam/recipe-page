@@ -106,32 +106,7 @@
     align-items: center;
 }
 
-
-
-/** 
-.preparation__list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-    // make the bullet sit inside container with offset of 0px
-    list-style-position: inside;
-    padding-inline-start: var(--spacing-100);
-    gap: var(--spacing-100);
-} 
-**/
-
 /* Reusable components */
-
-
-
-
-
-/* section specific */
-
-
-
-
 
 /* .instructions__item {
     margin-left: 40px;
