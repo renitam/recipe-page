@@ -1,0 +1,8 @@
+@import url(../../index.css);
+
+@media screen and (max-width: var(--size-tablet: 768px)) {
+    .recipe__title {
+        font-size: 36px;
+        line-height: 100%;
+    }
+}
