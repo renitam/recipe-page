@@ -1,0 +1,15 @@
+.list__item {
+    color: var(--stone-600, #5F564D);
+    text-align: left;
+}
+
+.list__item::marker {
+    color: var(--brown-800);
+}
+
+.list__item::before {
+    color: var(--brown-800);
+    font-size: 16px;
+    padding-left: var(--spacing-100);
+    margin-right: var(--spacing-200);
+}

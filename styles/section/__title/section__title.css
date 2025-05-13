@@ -1,0 +1,10 @@
+.section__title {
+    color: var(--color-brown-800, #854632);
+}
+
+@media screen and (max-width: 768px) {
+    .section__title {
+        font-size: 36px;
+        line-height: 100%;
+    }
+}

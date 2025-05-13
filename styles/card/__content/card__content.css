@@ -1,0 +1,11 @@
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-400);
+}
+
+@media (max-width: 768px) {
+    .card__content {
+        padding: var(--spacing-500) var(--spacing-400);
+    }
+}

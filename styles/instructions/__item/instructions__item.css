@@ -1,0 +1,10 @@
+.instructions__item {
+    margin-left: 40px;
+    text-indent: -40px;
+}
+
+.instructions__item::marker {
+    color: var(--brown-800);
+    font-weight: bolder;
+    margin-right: 40px;
+}
