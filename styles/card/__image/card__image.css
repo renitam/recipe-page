@@ -1,11 +1,13 @@
+@import url(../../index.css);
+
 .card__image {
     margin: 0 auto;
     width: 100%;
     max-width: 656px;
-    border-radius: 12px;
+    border-radius: var(--spacing-150);
 }
 
-@media screen and (max-width: var(--size-tablet)) {
+@media screen and (max-width: 767px) {
     .card__image {
         border-radius: 0;
     }  
