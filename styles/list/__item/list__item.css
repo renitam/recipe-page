@@ -1,21 +1,22 @@
+@import url(../../index.css);
+
 .list__item {
     color: var(--stone-600, #5F564D);
     text-align: left;
     display: flex;
     align-items: center;
-    position: relative;
 }
 
-.list__item::marker {
+/* .list__item::marker {
     color: var(--brown-800);
     font-weight: bolder;
-    margin-right: 40px;
-}
+    padding-right: var(--spacing-200);
+} */
 
 .list__item::before {
     content: "•";
+    width: var(--spacing-200);
     color: var(--brown-800);
-    font-size: 16px;
     padding-left: var(--spacing-100);
     margin-right: var(--spacing-200);
 }
