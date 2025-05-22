@@ -2,9 +2,10 @@
 @import url(./ingredients/ingredients.css);
 @import url(./instructions/instructions.css);
 @import url(./list/list.css);
-@import url(./section/section.css);
+@import url(./nutrition/nutrition.css);
 @import url(./preparation/preparation.css);
 @import url(./recipe/recipe.css);
+@import url(./section/section.css);
 
 /* Design System */
 
@@ -19,21 +20,21 @@
     --rose-50: hsl(330, 100%, 98%);
     --rose-800: hsl(332, 51%, 32%);
     /* Spacing */
-    --spacing-1600: 128px;
-    --spacing-600: 48px;
-    --spacing-500: 40px;
-    --spacing-400: 32px;
-    --spacing-300: 24px;
-    --spacing-200: 16px;
-    --spacing-150: 12px;
     --spacing-100: 8px;
+    --spacing-150: 12px;
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-500: 40px;
+    --spacing-600: 48px;
+    --spacing-1600: 128px;
     /* Typography */
     --regular: 400;
     --semi-bold: 600;
     --bold: 700;
     /* Devices */
-    --size-tablet: 768px;
     --size-mobile: 375px;
+    --size-tablet: 768px;
 }
 
 /* Text & font presets */
@@ -106,43 +107,6 @@
     align-items: center;
 }
 
-/* Reusable components */
-
-/* .instructions__item {
-    margin-left: 40px;
-    text-indent: -40px;
-}
-
-.instructions__item::marker {
-    color: var(--brown-800);
-    font-weight: bolder;
-    margin-right: 40px;
-} */
-
-/*
-.instructions__item
-.instructions__item-desc
-.nutrition
-.nutrition__title
-.nutrition__subtitle {} 
-*/
-
-
-.nutrition__table {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4, 48px);
-}
-
-.nutrition__label {
-    margin: 0;
-    color: var(--stone-600, #5F564D);
-}
-
-.nutrition__data {
-    margin: 0;
-}
-
 .footer {
     font-size: 11px;
     text-align: center;
@@ -151,4 +115,3 @@
 .footer__link {
     color: hsl(228, 45%, 44%);
 }
-
