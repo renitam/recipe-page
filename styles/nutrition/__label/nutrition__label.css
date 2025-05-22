@@ -1,4 +1,6 @@
 .nutrition__label {
     margin: 0;
+    width: 100%;
+    text-align: left;
     color: var(--stone-600, #5F564D);
 }

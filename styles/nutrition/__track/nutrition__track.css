@@ -1,0 +1,16 @@
+.nutrition__track {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-200);
+    border-bottom: 1px solid var(--rose-50);
+    padding: var(--spacing-150) var(--spacing-400);
+}
+
+.nutrition__track:nth-of-type(1) {
+    padding-top: 0px;
+}
+
+.nutrition__track:nth-of-type(4) {
+    border-bottom: none;
+    padding-bottom: 0;
+}
