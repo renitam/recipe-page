@@ -15,7 +15,6 @@
 
 .list__item::before {
     content: "•";
-    width: var(--spacing-200);
     color: var(--brown-800);
     padding-left: var(--spacing-100);
     margin-right: var(--spacing-200);
