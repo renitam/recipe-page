@@ -1,0 +1,5 @@
+.nutrition__table {
+    table-layout: auto;
+    margin: 0;
+    border-bottom: 1px solid var(--rose-50);
+}
