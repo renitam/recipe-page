@@ -1,8 +1,16 @@
-@import url(../../index.css);
+.recipe__title {
+    margin: 0;
+    font-family: 'Young Serif';
+    font-weight: var(--regular);
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
 
-@media screen and (max-width: var(--size-tablet: 768px)) {
+@media (max-width: 767px) {
     .recipe__title {
         font-size: 36px;
         line-height: 100%;
     }
 }
+
