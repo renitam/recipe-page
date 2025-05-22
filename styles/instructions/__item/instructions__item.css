@@ -1,5 +1,11 @@
+@import url(../../index.css);
+
+.instructions__item {
+    padding-left: var(--spacing-200);
+}
+
 .instructions__item::marker {
     color: var(--brown-800);
     font-weight: bolder;
-    margin-right: 40px;
+    padding-right: var(--spacing-200);
 }
