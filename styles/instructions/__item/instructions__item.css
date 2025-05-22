@@ -1,5 +1,3 @@
-@import url(../../index.css);
-
 .instructions__item {
     padding-left: var(--spacing-200);
 }
