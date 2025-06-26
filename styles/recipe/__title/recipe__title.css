@@ -1,5 +1,6 @@
 .recipe__title {
     margin: 0;
+    color: var(--brown-800);
     font-family: 'Young Serif';
     font-weight: var(--regular);
     font-size: 40px;
