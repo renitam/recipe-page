@@ -1,10 +1,10 @@
-@import url(__break/section__break.css);
-@import url(__subtitle/section__subtitle.css);
-@import url(__title/section__title.css);
+@import url("__break/section__break.css");
+@import url("__subtitle/section__subtitle.css");
+@import url("__title/section__title.css");
 
 .section {
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-300);
+    padding: var(--spacing-300) 0;
 }

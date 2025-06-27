@@ -2,9 +2,10 @@
     color: var(--color-brown-800, #854632);
 }
 
-@media screen and (max-width: 47.9375rem) {
+@media screen and (width <= 48rem) {
+    /* stylelint-disable-next-line selector-class-pattern */
     .section__title {
-        font-size: 36px;
+        font-size: 2.25rem;
         line-height: 100%;
     }
 }

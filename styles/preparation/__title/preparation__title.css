@@ -1,3 +1,4 @@
+/* stylelint-disable-next-line selector-class-pattern */
 .preparation__title {
     color: var(--rose-800);
 }
