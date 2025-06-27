@@ -1,10 +1,10 @@
-@import url("./card/card.css");
-@import url("./instructions/instructions.css");
-@import url("./list/list.css");
-@import url("./nutrition/nutrition.css");
-@import url("./preparation/preparation.css");
-@import url("./recipe/recipe.css");
-@import url("./section/section.css");
+@import url("card/card.css");
+@import url("instructions/instructions.css");
+@import url("list/list.css");
+@import url("nutrition/nutrition.css");
+@import url("preparation/preparation.css");
+@import url("recipe/recipe.css");
+@import url("section/section.css");
 
 /* Design System */
 
