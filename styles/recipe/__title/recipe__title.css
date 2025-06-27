@@ -1,13 +1,3 @@
-.recipe__title {
-    margin: 0;
-    color: var(--brown-800);
-    font-family: 'Young Serif';
-    font-weight: var(--regular);
-    font-size: 40px;
-    line-height: 100%;
-    letter-spacing: 0px;
-}
-
 @media (max-width: 767px) {
     .recipe__title {
         font-size: 36px;
