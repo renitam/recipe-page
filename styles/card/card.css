@@ -1,5 +1,5 @@
 
-@import url(__image/card__image.css);
+@import url("__image/card__image.css");
 
 .card {
     margin: var(--spacing-1600) var(--spacing-600);
