@@ -13,7 +13,7 @@
     gap: var(--spacing-500);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 47.9375rem) {
     .card {
         margin: 0;
         padding: 0;
