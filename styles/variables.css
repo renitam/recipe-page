@@ -27,6 +27,6 @@
     --bold: 700;
 
     /* Devices */
-    --size-mobile: 375px;
-    --size-tablet: 768px;
+    --size-mobile: 23.5rem;  /* 375px */
+    --size-tablet: 48rem; /* 768px */
 }
