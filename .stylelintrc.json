@@ -1,0 +1,12 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "at-rule-no-unknown": [true, {
+      "ignoreAtRules": ["extend", "tailwind", "apply", "variants", "responsive", "screen"]
+    }],
+    "at-rule-disallowed-list": ["debug"],
+
+    "media-feature-name-no-vendor-prefix": true,
+    "unit-no-unknown": true
+  }
+}
