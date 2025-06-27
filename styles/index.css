@@ -40,18 +40,18 @@
 /* Text & font presets */
 
 @font-face {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit';
     src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
 @font-face {
-    font-family: 'Young Serif', serif;
+    font-family: 'Young Serif';
     src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 
 .text-preset-1 {
     margin: 0;
-    font-family: 'Young Serif';
+    font-family: 'Young Serif', serif;
     font-weight: var(--regular);
     font-size: 2.5rem;
     line-height: 100%;
@@ -60,7 +60,7 @@
 
 .text-preset-2 {
     margin: 0;
-    font-family: 'Young Serif';
+    font-family: 'Young Serif', serif;
     font-weight: var(--regular);
     font-size: 1.75rem;
     line-height: 100%;
@@ -69,7 +69,7 @@
 
 .text-preset-3 {
     margin: 0;
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
     font-weight: var(--semi-bold);
     font-size: 1.25rem;
     line-height: 100%;
@@ -78,7 +78,7 @@
 
 .text-preset-4 {
     margin: 0;
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
     font-weight: var(--regular);
     font-size: 1rem;
     line-height: 150%;
@@ -86,7 +86,7 @@
 }
 
 .text-preset-4-bold {
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
     font-weight: var(--bold);
     font-size: 1rem;
     line-height: 150%;
@@ -99,7 +99,7 @@
     height: 100%;
     margin: 0;
     background-color: var(--stone-100);
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
     color: var(--stone-900);
     display: flex;
     flex-direction: column;
