@@ -2,8 +2,8 @@
 
 :root {
     /* Colors */
-    --white: hsl(0deg 0% 100%);
-    --stone-100: hsl(30deg 54% 90%);
+    --white: hsl(0deg 0% 100%), #ffffff;
+    --stone-100: hsl(30deg 54% 90%), ;
     --stone-150: hsl(30deg 18% 87%);
     --stone-600: hsl(30deg 10% 34%);
     --stone-900: hsl(24deg 5% 18%);

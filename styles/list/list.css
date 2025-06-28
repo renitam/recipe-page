@@ -5,10 +5,6 @@
     flex-direction: column;
     justify-content: center;
     margin: 0;
-
-    /* make the bullet sit inside container with offset of 0px */
-    
-    /* list-style-position: inside; */
     padding-left: 0;
     gap: var(--spacing-100);
 }

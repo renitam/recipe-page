@@ -1,5 +1,5 @@
 .list__item {
-    color: var(--stone-600, #5F564D);
+    color: var(--stone-600);
     text-align: left;
     display: flex;
     align-items: center;
