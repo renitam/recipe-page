@@ -1,11 +1,11 @@
 .card__image {
     margin: 0 auto;
     width: 100%;
-    max-width: 656px;
+    max-width: 41rem;
     border-radius: var(--spacing-150);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (width <= 48rem) {
     .card__image {
         border-radius: 0;
     }  

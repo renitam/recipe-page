@@ -6,14 +6,14 @@
     margin: var(--spacing-1600) var(--spacing-600);
     background-color: var(--white);
     border-radius: var(--spacing-300);
-    max-width: 656px;
+    max-width: 41rem;
     padding: var(--spacing-500);
     display: flex;
     flex-direction: column;
     gap: var(--spacing-500);
 }
 
-@media screen and (width <= 767px) {
+@media screen and (width <= 48rem) {
     .card {
         margin: 0;
         padding: 0;
