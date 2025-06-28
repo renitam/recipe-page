@@ -2,18 +2,29 @@
 
 :root {
     /* Colors */
+<<<<<<< HEAD
     --white: hsl(0deg, 0%, 100%);
     --stone-100: hsl(30deg, 54%, 90%);
+=======
+    --white: hsl(0deg 0% 100%);
+    --stone-100: hsl(30deg 54% 90%);
+>>>>>>> older
     --stone-150: hsl(30deg 18% 87%);
     --stone-600: hsl(30deg 10% 34%);
     --stone-900: hsl(24deg 5% 18%);
     --brown-800: hsl(14deg 45% 36%);
     --rose-50: hsl(330deg 100% 98%);
     --rose-800: hsl(332deg 51% 32%);
+<<<<<<< HEAD
     --navy: hsl(228deg 45% 44%);
 
     /* Spacing */
     --spacing-100: 0.5rem;    /* 8px  */
+=======
+
+    /* Spacing */
+    --spacing-100: 0.5rem;    /* 8px */
+>>>>>>> older
     --spacing-150: 0.75rem;   /* 12px */
     --spacing-200: 1rem;      /* 16px */
     --spacing-300: 1.5rem;    /* 24px */
@@ -28,6 +39,12 @@
     --bold: 700;
 
     /* Devices */
+<<<<<<< HEAD
     --size-mobile: 23.5rem;   /* 375px */
     --size-tablet: 48rem;     /* 768px */
 }
+=======
+    --size-mobile: 23.5rem;  /* 375px */
+    --size-tablet: 48rem; /* 768px */
+}
+>>>>>>> older

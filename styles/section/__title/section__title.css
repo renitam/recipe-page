@@ -3,7 +3,10 @@
 }
 
 @media screen and (width <= 48rem) {
+<<<<<<< HEAD
     /* stylelint-disable-next-line selector-class-pattern */
+=======
+>>>>>>> older
     .section__title {
         font-size: 2.25rem;
         line-height: 100%;

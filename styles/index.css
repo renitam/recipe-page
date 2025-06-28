@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @import url("./card/card.css");
 @import url("./instructions/instructions.css");
@@ -39,6 +40,16 @@
     --size-mobile: 23.5rem;   /* 375px */
     --size-tablet: 48rem;     /* 768px */
 }
+=======
+@import url("variables.css");
+@import url("card/card.css");
+@import url("instructions/instructions.css");
+@import url("list/list.css");
+@import url("nutrition/nutrition.css");
+@import url("preparation/preparation.css");
+@import url("recipe/recipe.css");
+@import url("section/section.css");
+>>>>>>> older
 
 /* Text & font presets */
 
@@ -115,5 +126,9 @@
 }
 
 .footer-link {
+<<<<<<< HEAD
     color: var(--navy);
+=======
+    color: hsl(228deg 45% 44%);
+>>>>>>> older
 }

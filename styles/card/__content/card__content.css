@@ -4,7 +4,11 @@
     gap: var(--spacing-400);
 }
 
+<<<<<<< HEAD
 @media (width <= 48rem) {
+=======
+@media (max-width: 48rem) {
+>>>>>>> older
     .card__content {
         padding: var(--spacing-500) var(--spacing-400);
     }
