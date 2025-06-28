@@ -4,7 +4,7 @@
     gap: var(--spacing-400);
 }
 
-@media (width <= 48rem) {
+@media (max-width: 48rem) {
     .card__content {
         padding: var(--spacing-500) var(--spacing-400);
     }

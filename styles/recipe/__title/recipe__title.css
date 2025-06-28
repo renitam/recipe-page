@@ -7,7 +7,7 @@
     letter-spacing: 0px;
 }
 
-@media (width <= 48rem) {
+@media (max-width: 48rem) {
     .recipe__title {
         font-size: 36px;
         line-height: 100%;
