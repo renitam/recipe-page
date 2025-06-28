@@ -1,46 +1,3 @@
-<<<<<<< HEAD
-
-@import url("./card/card.css");
-@import url("./instructions/instructions.css");
-@import url("./list/list.css");
-@import url("./nutrition/nutrition.css");
-@import url("./preparation/preparation.css");
-@import url("./recipe/recipe.css");
-@import url("./section/section.css");
-
-
-:root {
-    /* Colors */
-    --white: hsl(0deg, 0%, 100%);
-    --stone-100: hsl(30deg, 54%, 90%);
-    --stone-150: hsl(30deg 18% 87%);
-    --stone-600: hsl(30deg 10% 34%);
-    --stone-900: hsl(24deg 5% 18%);
-    --brown-800: hsl(14deg 45% 36%);
-    --rose-50: hsl(330deg 100% 98%);
-    --rose-800: hsl(332deg 51% 32%);
-    --navy: hsl(228deg 45% 44%);
-
-    /* Spacing */
-    --spacing-100: 0.5rem;    /* 8px  */
-    --spacing-150: 0.75rem;   /* 12px */
-    --spacing-200: 1rem;      /* 16px */
-    --spacing-300: 1.5rem;    /* 24px */
-    --spacing-400: 2rem;      /* 32px */
-    --spacing-500: 2.5rem;    /* 40px */
-    --spacing-600: 3rem;      /* 48px */
-    --spacing-1600: 8rem;     /* 128px */
-
-    /* Typography */
-    --regular: 400;
-    --semi-bold: 600;
-    --bold: 700;
-
-    /* Devices */
-    --size-mobile: 23.5rem;   /* 375px */
-    --size-tablet: 48rem;     /* 768px */
-}
-=======
 @import url("variables.css");
 @import url("card/card.css");
 @import url("instructions/instructions.css");
@@ -49,7 +6,6 @@
 @import url("preparation/preparation.css");
 @import url("recipe/recipe.css");
 @import url("section/section.css");
->>>>>>> older
 
 /* Text & font presets */
 

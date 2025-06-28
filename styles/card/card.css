@@ -1,10 +1,6 @@
 
-<<<<<<< HEAD
-@import url("./__image/card__image.css");
-=======
 @import url("__content/card__content.css");
 @import url("__image/card__image.css");
->>>>>>> older
 
 .card {
     margin: var(--spacing-1600) var(--spacing-600);
@@ -17,11 +13,7 @@
     gap: var(--spacing-500);
 }
 
-<<<<<<< HEAD
-@media screen and (width <= 48rem) {
-=======
 @media screen and (max-width: 48rem) {
->>>>>>> older
     .card {
         margin: 0;
         padding: 0;
